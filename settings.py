@@ -2,7 +2,7 @@ headers = {
 		'User-Agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
 		'Content-Type': 'application/x-www-form-urlencoded'
 		}
-#登录时post的数据
+#登录时post的数据，不用设置
 data = {
 		'username':'',
 		'pwd':'',
@@ -15,17 +15,17 @@ data = {
 		'risk_jd[token]':'',
 		'verifytoken': ''
 		}
-
-#检测像素点相似度的阈值
-threshold = 6
-
-#更新验证码时post的数据
+#更新验证码时post的数据，不用设置
 rf_data = {
 		'si':'',
 		'version': 1,
 		'se':'',
 		'lang':''
 		}
-#账户信息
+
+#检测像素点相似度的阈值
+threshold = 6
+
+#账户信息，需设置
 username = '账户'
 password = '密码'
