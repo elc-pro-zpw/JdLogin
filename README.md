@@ -16,3 +16,5 @@
 ```
 pip3 install -r requirements.txt
 ```
+code_verify.js:验证码加密函数
+sj_pwd.js:密码用户名加密函数
