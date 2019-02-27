@@ -16,5 +16,14 @@
 ```
 pip3 install -r requirements.txt
 ```
+##### 文件说明
+
 code_verify.js:验证码加密函数
-sj_pwd.js:密码用户名加密函数
+
+sj_jd_pwd.js:密码用户名加密函数
+
+settings.py:设置用户名密码及像素相识度阈值
+
+md.js:用于网页源码中的md5函数
+
+get_traceid.js：获取历史订单时生成参数，根据cookie返回值计算
